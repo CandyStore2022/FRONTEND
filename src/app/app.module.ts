@@ -1,3 +1,5 @@
+import { RegisterComponent } from './components/register/register.component';
+import { LoginComponent } from './components/login/login.component';
 import { AngularMaterialModule } from './components/shared/angular-material/shared/angular-material.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -22,7 +24,9 @@ import { PerfilComponent } from './components/perfil/perfil.component';
     CatalogoComponent,
     FaqsComponent,
     ContactoComponent,
-    PerfilComponent
+    PerfilComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
