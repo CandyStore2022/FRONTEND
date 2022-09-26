@@ -1,0 +1,13 @@
+
+.txt{
+    position: absolute;
+    font-size: 3rem;
+    top: 20%;
+    left: 80%;
+}
+.p{
+    position: absolute;
+    font-size: 1rem;
+    top: 30%;
+    left: 80%;
+}
