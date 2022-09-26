@@ -1,13 +1,15 @@
-<mat-toolbar color= "warn">
+<mat-toolbar> 
     <mat-toolbar-row>
-        <span>CandyStore</span>
+        <span>
+            <img src="assets/LOGO.png" alt="CandyStore Logo">
+        </span>
         <span class="example-spacer"></span>
         <button mat-raised-button [routerLink]="'/inicio'">Inicio</button>
         <button mat-raised-button [routerLink]="'/catalogo'">Catalogo</button>
         <button mat-raised-button [routerLink]="'/faqs'">FAQ'S</button>
-        <button mat-raised-button [routerLink]="'/contacto'">Contacto</button>
+        <button mat-raised-button [routerLink]="'/footer'">Contacto</button>
         <button mat-raised-button [routerLink]="'/login'">Login</button>
-        <button mat-raised-button [routerLink]="'/perfil'">Perfil</button>
+        <img src="assets/PERFIL.png" alt="Perfil" mat-raised-button [routerLink]="'/perfil'">
     </mat-toolbar-row>
 
 </mat-toolbar>

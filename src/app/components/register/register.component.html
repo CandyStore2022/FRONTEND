@@ -7,16 +7,32 @@
         <form class="example-form">
 
             <mat-card-content>
+                <mat-form-field appearance="fill">
+                    <mat-label>Tipo de usuario</mat-label>
+                    <mat-select>
+                      <mat-option value="Usuario1">Comprador</mat-option>
+                      <mat-option value="Usuario1">Vendedor</mat-option>
+                    </mat-select>
+                  </mat-form-field>
                 <mat-form-field class="example-full-width">
-                    <input matInput placeholder="Username">
+                    <input matInput placeholder="Nombre de usuario">
                 </mat-form-field>
-
+                <mat-form-field class="example-full-width">
+                    <input matInput placeholder="Nombre">
+                </mat-form-field>
+                <mat-form-field class="example-full-width">
+                    <input matInput placeholder="Apellido">
+                </mat-form-field>
                 <mat-form-field class="example-full-width">
                     <input matInput placeholder="Email">
+                </mat-form-field>          
+
+                <mat-form-field class="example-full-width">
+                    <input matInput placeholder="Contrasena">
                 </mat-form-field>
 
                 <mat-form-field class="example-full-width">
-                    <input matInput placeholder="Password">
+                    <input matInput placeholder="Telefono">
                 </mat-form-field>
 
             </mat-card-content>

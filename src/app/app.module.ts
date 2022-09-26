@@ -15,6 +15,7 @@ import { CatalogoComponent } from './components/catalogo/catalogo.component';
 import { FaqsComponent } from './components/faqs/faqs.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
 import { PerfilComponent } from './components/perfil/perfil.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { PerfilComponent } from './components/perfil/perfil.component';
     ContactoComponent,
     PerfilComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

@@ -1,11 +1,11 @@
-<div class="login-wrapper" fxLayout="row" fxLayoutAlign="center center">
+<div class="login-wrapper" fxLayout="row" fxLayoutAlign="center center" >
 
     <mat-card class="box">
-        <mat-card-header>
-            <mat-card-title>Log in</mat-card-title>
+        <mat-card-header> 
+            <mat-card-title>LOGIN</mat-card-title>
         </mat-card-header>
 
-        <form class="example-form">
+        <form class="example-form" >
             <mat-card-content>
                 <mat-form-field class="example-full-width">
                     <input matInput placeholder="Username">
@@ -16,7 +16,10 @@
                 </mat-form-field>
             </mat-card-content>
             <button mat-stroked-button color="accent" class="btn-block">Log in</button>
-            <span mat-raised-button [routerLink]="'/register'">No estas registrado?</span>
+            <br><br>
+            <span >Olvidaste tu contrasena</span>
+            <br><br>
+            <span mat-raised-button [routerLink]="'/register'">Registrate</span>
         </form>
     </mat-card>
 

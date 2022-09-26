@@ -8,7 +8,7 @@ body { margin: auto; font-family: Roboto, "Helvetica Neue", sans-serif; }
 body {
 
     min-height: 100vh;
-    background: #e2e2e2;
+    background: #ffdab9;
 }
 
 .app-header {
@@ -43,7 +43,8 @@ body {
     float: left;
     padding: 60px 50px 40px 50px;
     width: 100%;
-    background: #fff;
+    background: #F4978E;
+
     border-radius: 10px;
     transform: scale(1);
     -webkit-transform: scale(1);
@@ -80,9 +81,12 @@ body {
     min-width: auto;
     max-width: auto;
     width: auto;
+    text-align: center;
 }
 
-.login-wrapper .example-full-width,
+.login-wrapper .example-full-width{
+    text-align: center;
+}
 .login-wrapper .btn-block {
     width: 100%;
 }
@@ -107,7 +111,8 @@ body {
 .login-wrapper .mat-stroked-button {
     border: 1px solid currentColor;
     line-height: 54px;
-    background: #FFF7FA;
+    background: #f08080;
+    color: black;
 }
 
 .login-wrapper .mat-form-field-appearance-legacy .mat-form-field-infix {

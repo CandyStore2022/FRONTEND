@@ -1,19 +1,16 @@
 {
-  "posts": [
+  "Usuario": [
     {
       "id": 1,
       "title": "json-server",
-      "author": "typicode"
+      "author": "typicode",
+      "user_type": "string",
+      "username": "string",
+      "name":"string",
+      "last_name":"string",
+      "email":"string",
+      "password":"string",
+      "number_phone":"string"
     }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
